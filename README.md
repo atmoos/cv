@@ -2,13 +2,12 @@
 
 Subject Matter Expert Technical Quality
 
-| | | |
-|-|-|-|
-| | | **MSc ETH** in Mechanical Engineering |
-| | | 29\. June 1984 |
-| | | Swiss & british citizenship |
-| | | Speaks German and English fluently |
-| | | Speaker at Basel One 2022 |
+| | |
+|-|-|
+| | **MSc ETH** in Mechanical Engineering |
+| | 29\. June 1984 |
+| | Speaks German and English fluently</br> with Swiss & british citizenship|
+| | Speaker at Basel One 2022 |
 
 ## Projects and Roles
 
