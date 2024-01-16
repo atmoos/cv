@@ -1,5 +1,7 @@
 # Thomas Kägi
 
+![Thomas portrait](https://gravatar.com/avatar/300adb9a3389fe057b3b8c3a7081a99f?s=200)
+
 Subject Matter Expert Technical Quality
 
 | | |
@@ -42,7 +44,7 @@ Blah, blah...
 
 Blah, blah...
 
-- Sales
+- ONNX
 
 ### Senior SWE & Arch. - *ERNI AG* - Rotkreuz, Switzerland
 
