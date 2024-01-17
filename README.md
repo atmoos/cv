@@ -2,7 +2,7 @@
 
 ![Thomas portrait](https://gravatar.com/avatar/300adb9a3389fe057b3b8c3a7081a99f?s=200)
 
-Subject Matter Expert Technical Quality
+Subject Matter Expert Technical Quality & Architect
 
 | | |
 |-|-|
@@ -13,11 +13,12 @@ Subject Matter Expert Technical Quality
 
 ## Projects and Roles
 
-Mostly, I've worked on project revolving around the *.Net stack* and *git* repos. However, I am very comfortable switching stack, for instance to *python*. Also, I enjoy working for a broad variety of target environments and architectures, be those
+Mostly, I've worked on project revolving around the *.Net stack* and *git* repos. However, I am very comfortable switching technologies and/or stack, for instance to *python*. Also, I enjoy working for a broad variety of target environments and architectures, be those
 
 - Plugin development as dynamically loadable libraries, for
   - *WPF* desktop engineering apps
   - medical instruments running customised Linux versions
+  - including the use of [ONNX](https://onnx.ai/) ML models.
 - Containerised event based architectures
   - *RabbitMQ* & *Docker*
 - Distributed systems in the (*Azure*) cloud
@@ -30,35 +31,78 @@ Mostly, I've worked on project revolving around the *.Net stack* and *git* repos
 
 ### SME - *ERNI AG* - Manila, Philippines
 
-3\.2023 - 3\.2024
+3\.2023 - 2\.2024
 
-Blah, blah...
+Sent out to ERNI Philippines to work on quality and maturity improvements. This was also a dream of mine come true.
 
-- Sales
-- Tech. Integration Patterns
-- etc.
+- Initial architecture of numerous cloud projects
+- Improvement of processes and formation of a bid team
+- Support of design thinking workshops
+- Bridging cultural gaps between head office in Zürich and office in Manila
+- Technical support during sales pitches
+- Organising international coding dojos
+- Devising reusable Tech. Integration Patterns
+- Support of shoring projects with Switzerland
 
-### SME - *ERNI AG* - Rotkreuz, Switzerland
+### Tech Lead & Architect - *ERNI AG* - Rotkreuz, Switzerland
 
-3\.2023 - 3\.2024
+10\.2021 - 2\.2023
 
-Blah, blah...
+As a tech lead and architect I was an integral part in implementing cutting edge diagnostic instrument workflows. Technical lead of a full stack team developing an electron maintenance app. Complete re-write of a generalised ML algorithm instrument plugin.
 
-- ONNX
+- [ONNX](https://onnx.ai/)
 
-### Senior SWE & Arch. - *ERNI AG* - Rotkreuz, Switzerland
+### Architect - *ERNI AG* - Rotkreuz, Switzerland
 
-3\.2023 - 3\.2024
+9\.2020 - 9\.2021
 
-Blah, blah...
+Cloud System
 
-- Sales
+### Tech Lead - *ERNI AG* - Rotkreuz, Switzerland
+
+10\.2019 - 8\.2020
+
+Service Software
+
+### Product Owner - *ERNI AG* - Thun, Switzerland
+
+10\.2018 - 4\.2019
+
+Machine Gateway
+
+### SW-Engineer - *ERNI AG* - Thun, Switzerland
+
+3\.2018 - 3\.2019
+
+Test automation with python & squish
+
+### SW-Engineer - *Sensirion AG* - Stäfa, Switzerland
+
+1\.2016 - 2\.2018
+
+Return
+
+### Mechanical Engineer - *Rapyuta Robotics AG* - Zürich, Switzerland
+
+1\.2015 - 6\.2015
+
+### Junior SW-Engineer - *Sensirion AG* - Stäfa, Switzerland
+
+3\.2013 - 12\.2014
+
+First job
+
+### Practical Trainings
+
+8\.2012 - 2\.2013 Internship at Sensirion AG, Stäfa
+
+8\.2000 - 8\.2004 Apprenticeship at LCA Automation AG, Affoltern a.A.
 
 ## Consulting
 
 5\.2019 - ongoing
 
-During my time at ERNI AG I was involved in numerous consulting mandates. These typically involved my capability of quickly analysing a situation on a high level, understanding the status quo and coming up with viable ideas and solutions for the next steps. This has worked well irrespective of the technologies involved.
+During my time at *ERNI AG* I was involved in numerous consulting mandates. These typically involved my capability of quickly analysing a situation on a high level, understanding the status quo and coming up with viable ideas and solutions for the next steps. This has worked well irrespective of the technologies involved.
 
 - *ToDo*: Manila
 - Architecting a UI test framework using [Squish](https://www.qt.io/product/quality-assurance/squish) by Qt for a cpp solution, **Rotkreuz**
@@ -66,7 +110,9 @@ During my time at ERNI AG I was involved in numerous consulting mandates. These 
 - Review and design extension of a solution based on a broker architecture, **Schlieren**
   - Workflow management system using [Camunda](https://camunda.com/)
   - The broker orchestrates interaction between Camunda workflows and python processor scripts
-- Code review of monolithic Xamarin application, **Zürich**
+- Code review of
+  - service based system with focus on performance, **Zürich**
+  - monolithic Xamarin application with focus on quality, **Zürich**
 - Knowledge transfer process set-up for a near shoring team, **Bratislava**
 - XML code-gen solution review and PoC, **Zollikofen**
 
@@ -88,6 +134,12 @@ I use my passion in software engineering to connect components and technologies 
   - VSCode, Draw.io, .editorconfig, etc
   - Don't want a "locked in" situation
   - Developers know best how they are most productive
+
+## Software Engineering Projects
+
+Out of the many projects I started out of curiosity at home, one has come to fruition: [Quantities](https://github.com/atmoos/Quantities).
+
+ToDo: Expand
 
 ## Other Passions
 
