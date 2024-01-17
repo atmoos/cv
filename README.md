@@ -35,34 +35,42 @@ Mostly, I've worked on project revolving around the *.Net stack* and *git* repos
 
 Sent out to ERNI Philippines to work on quality and maturity improvements. This was also a dream of mine come true.
 
-- Initial architecture of numerous cloud projects
-- Improvement of processes and formation of a bid team
-- Support of design thinking workshops
-- Bridging cultural gaps between head office in Zürich and office in Manila
-- Technical support during sales pitches
-- Organising international coding dojos
-- Devising reusable Tech. Integration Patterns
-- Support of shoring projects with Switzerland
-
 ### Tech Lead & Architect - *ERNI AG* - Rotkreuz, Switzerland
 
 10\.2021 - 2\.2023
 
-As a tech lead and architect I was an integral part in implementing cutting edge diagnostic instrument workflows. Technical lead of a full stack team developing an electron maintenance app. Complete re-write of a generalised ML algorithm instrument plugin.
+As a tech lead and architect I was an integral part in implementing cutting edge diagnostic instrument workflows. Technical lead of a full stack team developing an electron maintenance app. Complete re-write of a generalised ML algorithm instrument plugin using [ONNX](https://onnx.ai/) model. Designed and lead the sw-development of a new plugin for the newest diagnostic instrument.
 
-- [ONNX](https://onnx.ai/)
+- RabbitMQ & docker
+- Asp.Net (core), electron & Vue.js
+- ONNX
 
 ### Architect - *ERNI AG* - Rotkreuz, Switzerland
 
-9\.2020 - 9\.2021
+9.2020 - 9.2021
 
-Cloud System
+*Architecture:* Event based architecture with a broker topology
+
+Supporting architect of an expert system cloud solution used to analyse and detect anomalies in the runtime data of various diagnostic instruments.
+
+Lead a small team of developers implement new features. Analysed and fixed various performance bottlenecks caused by implementation mishaps through to non-optimal design.
+
+- Azure Cloud
+  - Event Hub, Stream Analytics, Functions, Service Bus, Bob-Storage and Cosmos DB
+- .Net & Asp.Net
+- Specflow & MSTest
 
 ### Tech Lead - *ERNI AG* - Rotkreuz, Switzerland
 
 10\.2019 - 8\.2020
 
-Service Software
+*Architecture:* Embedded in an event driven (mediator) architecture, implemented based around a command pattern.
+
+Developer and development architect on the service software component for a high precision med-tech instrument. Improvement of core components and features (cancellation), aiding the team in design decisions and leading team members technically. Drive and support the transition from WPF to WebApp.
+
+- Docker & RabbitMQ
+- .Net & WPF
+- Specflow & MSTest
 
 ### Product Owner - *ERNI AG* - Thun, Switzerland
 
@@ -125,6 +133,8 @@ I use my passion in software engineering to connect components and technologies 
 - Projects at EPH
 - Experience in the industry
 - Leading through book club sessions at EPH on FoSA
+
+I am familiar with following architectures:
 
 ### Software Engineering
 
