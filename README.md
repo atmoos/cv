@@ -2,16 +2,17 @@
 
 ![Thomas portrait](https://gravatar.com/avatar/300adb9a3389fe057b3b8c3a7081a99f?s=200)
 
-Subject Matter Expert Technical Quality & Architect
+I have a nack for enabling people and boosting teams. Quality will improve and your team members will shine if you add me to one (or many) of your projects. Also, I am quite a good software engineer and architect, too. So I'm looking forward to deep dives into hard problems, to then come out the other side with a solution that just works. I preferably do that around .Net, but have proven to be capable on other stacks (python) as well.
 
-| | |
-|-|-|
-| | **MSc ETH** in Mechanical Engineering |
-| | 29\. June 1984 |
-| | Speaks German and English fluently</br> with Swiss & British citizenship|
-| | Speaker at Basel One 2022 |
+As such, my current employer - ERNI AG - has promoted me to *Subject Matter Expert Technical Quality*. I also take up positions as architect.
 
-## Projects and Roles
+- **MSc ETH** in Mechanical Engineering
+- 29\. June 1984
+- I speak German and English fluently
+  - with Swiss & British citizenship
+- Speaker at Basel One 2022
+
+## Projects
 
 Mostly, I've worked on project revolving around the *.Net stack* and *git* repos. However, I am very comfortable switching technologies and/or stack, for instance to *python*. Also, I enjoy working for a broad variety of target environments and architectures, be those
 
@@ -29,15 +30,15 @@ Mostly, I've worked on project revolving around the *.Net stack* and *git* repos
 - Service Based Architectures for desktop apps
   - WPF, [ZeroC ICE](https://zeroc.com/ice) & *MS SQL* (2012)
 
-### SME - *ERNI AG* - Manila, Philippines
+### Subject Matter Expert - Manila, Philippines
 
-3\.2023 - 2\.2024
+3\.2023 - 2\.2024 @ *ERNI AG*
 
 Sent out to ERNI Philippines to work on quality and maturity improvements. This was also a dream of mine come true.
 
-### Tech Lead & Architect - *ERNI AG* - Rotkreuz, Switzerland
+### Tech Lead & Architect - Rotkreuz, Switzerland
 
-10\.2021 - 2\.2023
+10\.2021 - 2\.2023 @ *ERNI AG*
 
 As a tech lead and architect I was an integral part in implementing cutting edge diagnostic instrument workflows. Technical lead of a full stack team developing an electron maintenance app. Complete re-write of a generalised ML algorithm instrument plugin using [ONNX](https://onnx.ai/) model. Designed and lead the sw-development of a new plugin for the newest diagnostic instrument.
 
@@ -45,9 +46,9 @@ As a tech lead and architect I was an integral part in implementing cutting edge
 - Asp.Net (core), electron & Vue.js
 - ONNX
 
-### Architect - *ERNI AG* - Rotkreuz, Switzerland
+### Architect - Rotkreuz, Switzerland
 
-9.2020 - 9.2021
+9\.2020 - 9\.2021 @ *ERNI AG*
 
 *Architecture:* Event based architecture with a broker topology
 
@@ -60,9 +61,9 @@ Lead a small team of developers implement new features. Analysed and fixed vario
 - .Net & Asp.Net
 - Specflow & MSTest
 
-### Tech Lead - *ERNI AG* - Rotkreuz, Switzerland
+### Tech Lead - Rotkreuz, Switzerland
 
-10\.2019 - 8\.2020
+10\.2019 - 8\.2020 @ *ERNI AG*
 
 *Architecture:* Embedded in an event driven (mediator) architecture, implemented based around a command pattern.
 
@@ -72,43 +73,43 @@ Developer and development architect on the service software component for a high
 - .Net & WPF
 - Specflow & MSTest
 
-### Product Owner - *ERNI AG* - Thun, Switzerland
+### Product Owner - Thun, Switzerland
 
-10\.2018 - 4\.2019
+10\.2018 - 4\.2019 @ *ERNI AG*
 
 Machine Gateway
 
-### SW-Engineer - *ERNI AG* - Thun, Switzerland
+### SW-Engineer - Thun, Switzerland
 
-3\.2018 - 3\.2019
+3\.2018 - 3\.2019 @ *ERNI AG*
 
 Test automation with python & squish
 
-### SW-Engineer - *Sensirion AG* - Stäfa, Switzerland
+### SW-Engineer - Stäfa, Switzerland
 
-1\.2016 - 2\.2018
+1\.2016 - 2\.2018 @ *Sensirion AG*
 
 Return
 
-### Mechanical Engineer - *Rapyuta Robotics AG* - Zürich, Switzerland
+### Mechanical Engineer - Zürich, Switzerland
 
-1\.2015 - 6\.2015
+1\.2015 - 6\.2015 @ *Rapyuta Robotics AG*
 
-### Junior SW-Engineer - *Sensirion AG* - Stäfa, Switzerland
+### Junior SW-Engineer - Stäfa, Switzerland
 
-3\.2013 - 12\.2014
+3\.2013 - 12\.2014 @ *Sensirion AG*
 
 First job
 
 ### Practical Trainings
 
-8\.2012 - 2\.2013 Internship at Sensirion AG, Stäfa
+8\.2012 - 2\.2013 Internship @ Sensirion AG, Stäfa
 
-8\.2000 - 8\.2004 Apprenticeship at LCA Automation AG, Affoltern a.A.
+8\.2000 - 8\.2004 Apprenticeship @ LCA Automation AG, Affoltern a.A.
 
 ## Consulting
 
-5\.2019 - ongoing
+Since May 2019 for *ERNI AG*
 
 During my time at *ERNI AG* I was involved in numerous consulting mandates. These typically involved my capability of quickly analysing a situation on a high level, understanding the status quo and coming up with viable ideas and solutions for the next steps. This has worked well irrespective of the technologies involved.
 
@@ -124,7 +125,7 @@ During my time at *ERNI AG* I was involved in numerous consulting mandates. Thes
 - Knowledge transfer process set-up for a near shoring team, **Bratislava**
 - XML code-gen solution review and PoC, **Zollikofen**
 
-## Software Engineering Skills
+## Software Engineering Passion
 
 I use my passion in software engineering to connect components and technologies in a robust and maintainable fashion. This is supported by my love of also connecting people and teams and their respective expertise.
 
@@ -145,7 +146,7 @@ I am familiar with following architectures:
   - Don't want a "locked in" situation
   - Developers know best how they are most productive
 
-## Software Engineering Projects
+### My Own SWE Projects
 
 Out of the many projects I started out of curiosity at home, one has come to fruition: [Quantities](https://github.com/atmoos/Quantities).
 
