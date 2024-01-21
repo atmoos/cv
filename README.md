@@ -77,13 +77,21 @@ Developer and development architect on the service software component for a high
 
 10\.2018 - 4\.2019 @ *ERNI AG*
 
-Machine Gateway
+Development of a microservice for a client, which was done in collaboration with ERNI’s shoring
+centre in Bratislava. The solutions primary goal is to serve as a stateless translation layer between
+a COM API and an XML based protocol.
+Support client PO with architectural decisions and re-design of the XML based protocol. PO for
+dev-team at shoring centre.
 
 ### SW-Engineer - Thun, Switzerland
 
 3\.2018 - 3\.2019 @ *ERNI AG*
 
-Test automation with python & squish
+Support of client in their transition from manual testing to automated testing. Refactoring of
+their framework to increase reliability and performance. Drive architectural changes.
+
+- Python embedded in Squish & Gherkin.
+- Jenkins CI
 
 ### SW-Engineer - Stäfa, Switzerland
 
@@ -94,6 +102,15 @@ Return
 ### Mechanical Engineer - Zürich, Switzerland
 
 1\.2015 - 6\.2015 @ *Rapyuta Robotics AG*
+
+I began work there as one of the first employees. The main task was to integrate mechanical
+components into their solution. Furthermore, I implemented the calibration algorithm and test
+set-up used to parametrise transformation matrices used to compensate raw sensor data.
+Other tasks included: Development of a test bed for electric propulsion motors, evaluation and
+acquisition of electric motors and evaluation of suppliers for carbon fibre based components.
+
+- python & C++
+- ROS (Robot Operating System)
 
 ### Junior SW-Engineer - Stäfa, Switzerland
 
