@@ -2,18 +2,16 @@
 
 - **MSc ETH** in Mechanical Engineering
 - 29\. June 1984
-- I speak German and English fluently
-- Swiss & British citizenship
-- Speaker at Basel One 2022 on software quality
+- Fluent in German and English
+- With Swiss & British citizenship
+- Speaker at Basel One 2022 about software quality
 
-I have a nack for enabling people and boosting teams. Product quality will improve and your team members will shine if you add me to one (or many) of your projects. As such I thoroughly enjoy deep dives into hard problems, to then re-surface with a solution that *just works*. I preferably do that around .Net, but have proven to be capable on other stacks (python) as well.</br>
-Thanks to my love for quality and my passion on design I consider myself a productive software engineer as well as a talented emerging architect.
+I have a nack for enabling people and boosting teams. Product quality will improve and your team members will shine if you add me to one (or many) of your projects. As such I thoroughly enjoy deep dives into hard problems, to then re-surface with a solution that *just works*. I preferably do that around .Net ecosystems, but have proven to be capable on other stacks as well.  
+Thanks to my love for quality, my passion for design and my sixth sense for detecting issues, I consider myself a productive software engineer as well as a talented emerging architect.
 
-In my position as *Subject Matter Expert Technical Quality* I promote engineering excellence by organising internal meetup events about technology and software engineering practices. This is a practice I enjoy taking with me on client projects.
+In my current position as *Subject Matter Expert Technical Quality* I promote engineering excellence by organising internal meetup events about technology, and software design & engineering practices. I enjoy establishing similar formats when working for client projects.
 
-Despite the shift to more abstract work I still love working as a software developer focussing on design and quality.
-
-ToDo: Add GPG key
+ToDo: Add GPG key, "Suche keine rolle, sondern eine Aufgabe."
 
 ***Contact:*** [github](https://github.com/atmoos), [TEL & EMAIL], [linkedin](https://www.linkedin.com/in/thomas-k%C3%A4gi-46410a141/)
 
