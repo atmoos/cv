@@ -3,12 +3,17 @@
 - **MSc ETH** in Mechanical Engineering
 - 29\. June 1984
 - I speak German and English fluently
-  - with Swiss & British citizenship
+- Swiss & British citizenship
 - Speaker at Basel One 2022 on software quality
 
-I have a nack for enabling people and boosting teams. Product quality will improve and your team members will shine if you add me to one (or many) of your projects. Also, I am quite a good software engineer and architect, too. I look forward to deep dives into hard problems, to then re-surface with a solution that *just works*. I preferably do that around .Net, but have proven to be capable on other stacks (python) as well.
+I have a nack for enabling people and boosting teams. Product quality will improve and your team members will shine if you add me to one (or many) of your projects. As such I thoroughly enjoy deep dives into hard problems, to then re-surface with a solution that *just works*. I preferably do that around .Net, but have proven to be capable on other stacks (python) as well.</br>
+Thanks to my love for quality and my passion on design I consider myself a productive software engineer as well as a talented emerging architect.
 
-As such, my current employer - ERNI AG - has promoted me to *Subject Matter Expert Technical Quality*. I also take up positions as architect.
+In my position as *Subject Matter Expert Technical Quality* I promote engineering excellence by organising internal meetup events about technology and software engineering practices. This is a practice I enjoy taking with me on client projects.
+
+Despite the shift to more abstract work I still love working as a software developer focussing on design and quality.
+
+ToDo: Add GPG key
 
 ***Contact:*** [github](https://github.com/atmoos), [TEL & EMAIL], [linkedin](https://www.linkedin.com/in/thomas-k%C3%A4gi-46410a141/)
 
@@ -58,7 +63,7 @@ mindmap
 
 ### Subject Matter Expert - Manila, Philippines
 
-3\.2023 - 2\.2024 @ *ERNI AG*
+3\.2023 - 2\.2024 @ *ERNI AG*, Manila, Philippines
 
 ***On architecture:*** High level cloud architectures ([C4)](https://c4model.com/) & heading an architecture book club.
 
@@ -70,7 +75,7 @@ Additionally, I lead the (technical) design phase of multiple solutions aimed at
 
 ### Tech Lead & Architect - Rotkreuz, Switzerland
 
-10\.2021 - 2\.2023 @ *ERNI AG*
+10\.2021 - 2\.2023 @ *ERNI AG* for client in medical industry, Rotkreuz, Switzerland
 
 ***Architecture:*** Microkernel architecture embedded in an event-driven system.
 
