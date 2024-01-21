@@ -2,7 +2,7 @@
 
 ![Thomas portrait](https://gravatar.com/avatar/300adb9a3389fe057b3b8c3a7081a99f?s=200)
 
-I have a nack for enabling people and boosting teams. Quality will improve and your team members will shine if you add me to one (or many) of your projects. Also, I am quite a good software engineer and architect, too. So I'm looking forward to deep dives into hard problems, to then come out the other side with a solution that just works. I preferably do that around .Net, but have proven to be capable on other stacks (python) as well.
+I have a nack for enabling people and boosting teams. Product quality will improve and your team members will shine if you add me to one (or many) of your projects. Also, I am quite a good software engineer and architect, too. I look forward to deep dives into hard problems, to then re-surface with a solution that *just works*. I preferably do that around .Net, but have proven to be capable on other stacks (python) as well.
 
 As such, my current employer - ERNI AG - has promoted me to *Subject Matter Expert Technical Quality*. I also take up positions as architect.
 
@@ -10,11 +10,11 @@ As such, my current employer - ERNI AG - has promoted me to *Subject Matter Expe
 - 29\. June 1984
 - I speak German and English fluently
   - with Swiss & British citizenship
-- Speaker at Basel One 2022
+- Speaker at Basel One 2022 on software quality
 
 ## Projects
 
-Mostly, I've worked on project revolving around the *.Net stack* and *git* repos. However, I am very comfortable switching technologies and/or stack, for instance to *python*. Also, I enjoy working for a broad variety of target environments and architectures, be those
+Mostly, I've worked on projects revolving around the *.Net stack* and *git* repos. However, I am very comfortable switching technologies and/or stack, for instance to *python*. Also, I enjoy working for a broad variety of target environments and architectures, be those
 
 - Plugin development as dynamically loadable libraries, for
   - *WPF* desktop engineering apps
@@ -29,6 +29,30 @@ Mostly, I've worked on project revolving around the *.Net stack* and *git* repos
   - *Vue.js* & *ASP.Net* (Core)
 - Service Based Architectures for desktop apps
   - WPF, [ZeroC ICE](https://zeroc.com/ice) & *MS SQL* (2012)
+
+```mermaid
+mindmap
+  root((Thomas))
+    Distributed Systems in Azure Cloud
+      Event Hub & Stream Analytics
+      Blob Storage & Cosmos DB
+      Service Bus
+      Azure Functions & Web Apps
+    Event-Based Architecture
+      RabbitMQ
+      Docker
+    Service Based Architecture
+      Electron Based Desktop
+        ASP.NET Core
+        Vue.js
+      Native Desktop
+        WPF using MVVM
+        ZeroC ICE
+        MS SQL
+    Microkernel Architecture
+      Algorithms Plugins
+      ML Plugin with ONNX
+```
 
 ### Subject Matter Expert - Manila, Philippines
 
