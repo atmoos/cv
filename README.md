@@ -40,7 +40,9 @@ Sent out to ERNI Philippines to work on quality and maturity improvements. This 
 
 10\.2021 - 2\.2023 @ *ERNI AG*
 
-As a tech lead and architect I was an integral part in implementing cutting edge diagnostic instrument workflows. Technical lead of a full stack team developing an electron maintenance app. Complete re-write of a generalised ML algorithm instrument plugin using [ONNX](https://onnx.ai/) model. Designed and lead the sw-development of a new plugin for the newest diagnostic instrument.
+*Architecture:* Microkernel architecture embedded in an event-driven system.
+
+As a tech lead and architect I was an integral part in implementing cutting edge diagnostic instrument workflows. Technical lead of a full stack team developing an electron maintenance app. Complete re-write of a generalised ML algorithm instrument plugin using [ONNX](https://onnx.ai/) model. Also, I designed and lead the sw-development of a new plugin for the newest diagnostic instrument.
 
 - RabbitMQ & docker
 - Asp.Net (core), electron & Vue.js
@@ -77,27 +79,39 @@ Developer and development architect on the service software component for a high
 
 10\.2018 - 4\.2019 @ *ERNI AG*
 
-Development of a microservice for a client, which was done in collaboration with ERNI’s shoring
-centre in Bratislava. The solutions primary goal is to serve as a stateless translation layer between
-a COM API and an XML based protocol.
-Support client PO with architectural decisions and re-design of the XML based protocol. PO for
-dev-team at shoring centre.
+*Architecture:* Service based translation layer exposing an XML Protocol (over TCP/IP) and wrapping calls to a COM API.
+
+I acted as co-designer and product owner for a project, done in collaboration with a shoring team in in Bratislava. The solution's primary goal is to serve as a stateless translation layer for a COM API that is exposed as an XML based protocol.
 
 ### SW-Engineer - Thun, Switzerland
 
 3\.2018 - 3\.2019 @ *ERNI AG*
 
-Support of client in their transition from manual testing to automated testing. Refactoring of
-their framework to increase reliability and performance. Drive architectural changes.
+*Architecture:* Layered test architecture.
 
-- Python embedded in Squish & Gherkin.
-- Jenkins CI
+Support the team transitioning form auto-generated, but brittle and slow end-to-end tests, to more stable BDD tests that reflected requirements.
+
+I improved robustness of a partially built internal framework by eliminating crashes and false positives, as well as improving performance form 5h runtime down to 2h.
+
+- Squish & Gherkin
+  - targeting our framework built with python 3
+- Jenkins CI & SVN
 
 ### SW-Engineer - Stäfa, Switzerland
 
 1\.2016 - 2\.2018 @ *Sensirion AG*
 
-Return
+*Architecture:* Event based architecture using the mediator topology,later evolving into microservices.
+
+The core task was to build a control and monitoring software (desktop app) for a multi slot robotic sensor calibration system. Two unsuccessful attempts had been made previously. By decoupling components and simplifying designs and interfaces, my approach lead to success.
+
+Tactics for success:
+
+- Strict application of [SOLID](https://en.wikipedia.org/wiki/SOLID) principles
+- Temporal and logical decoupling of processors
+- Simplification of design, leading to:
+  - New internally widely adopted command pattern implementation
+  - Separately testable components
 
 ### Mechanical Engineer - Zürich, Switzerland
 
@@ -116,7 +130,9 @@ acquisition of electric motors and evaluation of suppliers for carbon fibre base
 
 3\.2013 - 12\.2014 @ *Sensirion AG*
 
-First job
+*Architecture:* Layered architecture with RPC using ZeroC's ICE
+
+My first job as a sw engineer. I designed a transparently parralelisable wrapper implementation of the RPC API targeting the firmware implementation of a calibration unit.
 
 ### Practical Trainings
 
