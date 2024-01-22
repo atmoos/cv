@@ -50,9 +50,9 @@ flowchart TD
   foo --- bar
 ```
 
-### Subject Matter Expert - Manila, Philippines
+### Subject Matter Expert - Consulting Services
 
-3\.2023 - 2\.2024 @ *ERNI AG*, Manila, Philippines
+3\.2023 - 2\.2024 @ **ERNI AG** Manila, Philippines & Singapore
 
 ***On architecture:*** High level cloud architectures ([C4)](https://c4model.com/) & heading an architecture book club.
 
@@ -62,9 +62,9 @@ Additionally, I lead the (technical) design phase of multiple solutions aimed at
 
 ***Technology:*** Azure Cloud, .Net, Maui & Xamarin, [BLE](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy)
 
-### Tech Lead & Architect - Rotkreuz, Switzerland
+### Tech Lead & Architect - Medical Industry
 
-10\.2021 - 2\.2023 @ *ERNI AG* for client in medical industry, Rotkreuz, Switzerland
+10\.2021 - 2\.2023 @ **ERNI AG** for a client in Rotkreuz, Switzerland
 
 ***Architecture:*** Microkernel architecture embedded in an event-driven system.
 
@@ -72,9 +72,9 @@ As a tech lead and architect I was an integral part in implementing cutting edge
 
 ***Technology:*** RabbitMQ, Docker, Asp.Net (core), electron, Vue.js, ONNX
 
-### Architect - Rotkreuz, Switzerland
+### Architect & Senior Engineer - Medical Industry
 
-9\.2020 - 9\.2021 @ *ERNI AG*
+9\.2020 - 9\.2021 @ **ERNI AG** for a client in Rotkreuz, Switzerland
 
 ***Architecture:*** Event based architecture with a broker topology
 
@@ -84,9 +84,9 @@ Lead a small team of developers implement new features. Analysed and fixed vario
 
 ***Technology:*** Azure Cloud, .Net, Asp.Net (core), Specflow, MSTest
 
-### Tech Lead - Rotkreuz, Switzerland
+### Tech Lead & Senior Engineer - Medical Industry
 
-10\.2019 - 8\.2020 @ *ERNI AG*
+10\.2019 - 8\.2020 @ **ERNI AG** for a client in Rotkreuz, Switzerland
 
 ***Architecture:*** Embedded in an event driven (mediator) architecture, implemented based around a command pattern.
 
@@ -94,9 +94,9 @@ Developer and development architect on the service software component for a high
 
 ***Technology:*** RabbitMQ, Docker, .Net, WPF, Specflow, MSTest
 
-### Product Owner - Thun, Switzerland
+### Product Owner - Manufacturing Industry
 
-10\.2018 - 4\.2019 @ *ERNI AG*
+10\.2018 - 4\.2019 @ **ERNI AG** for a client in Thun, Switzerland
 
 ***Architecture:*** Service based translation layer.
 
@@ -104,9 +104,9 @@ I acted as co-designer and product owner for a project done in collaboration wit
 
 ***Technology:*** XML protocol over TCP/IP, COM API, .NET (core & Framework)
 
-### SW-Engineer - Thun, Switzerland
+### SW-Engineer - Manufacturing Industry
 
-3\.2018 - 3\.2019 @ *ERNI AG*
+3\.2018 - 3\.2019 @ **ERNI AG** for a client in Thun, Switzerland
 
 ***Architecture:*** Layered test architecture.
 
@@ -116,9 +116,9 @@ I improved robustness of a partially built internal framework by eliminating cra
 
 ***Technology:*** Squish, Gherkin, python 3, Jenkins CI, SVN
 
-### SW-Engineer - Stäfa, Switzerland
+### SW-Engineer - Electronics Industry
 
-1\.2016 - 2\.2018 @ *Sensirion AG*
+1\.2016 - 2\.2018 @ **Sensirion AG** Stäfa, Switzerland
 
 ***Architecture:*** Event based architecture using the mediator topology,later evolving into microservices.
 
@@ -134,9 +134,9 @@ Tactics for success:
 
 ***Technology:*** .Net Framework, WPF, Beckhoff [PLC](https://en.wikipedia.org/wiki/Programmable_logic_controller), Sockets
 
-### Mechanical Engineer - Zürich, Switzerland
+### Mechanical Engineer - Robotics ETH Start-Up
 
-1\.2015 - 6\.2015 @ *Rapyuta Robotics AG*
+1\.2015 - 6\.2015 @ *Rapyuta Robotics AG* Zürich, Switzerland
 
 I began work there as one of the first employees. The main task was to integrate mechanical
 components into their solution. Furthermore, I implemented the calibration algorithm and test
@@ -146,9 +146,9 @@ acquisition of electric motors and evaluation of suppliers for carbon fibre base
 
 ***Technology:*** python, C++, [ROS](https://www.ros.org/)
 
-### Junior SW-Engineer - Stäfa, Switzerland
+### Junior SW-Engineer - Electronics Industry
 
-3\.2013 - 12\.2014 @ *Sensirion AG*
+3\.2013 - 12\.2014 @ **Sensirion AG** Stäfa, Switzerland
 
 ***Architecture:*** Layered architecture with RPC using ZeroC's ICE
 
@@ -158,17 +158,22 @@ My first job as a sw engineer. I designed a transparently parralelisable wrapper
 
 ### Practical Trainings
 
-8\.2012 - 2\.2013 Internship @ Sensirion AG, Stäfa
+8\.2012 - 2\.2013 Internship @ **Sensirion AG**, Stäfa, Switzerland
 
-8\.2000 - 8\.2004 Apprenticeship @ LCA Automation AG, Affoltern a.A.
+8\.2000 - 8\.2004 Apprenticeship @ **LCA Automation AG**, Affoltern a.A., Switzerland
 
 ## Consulting
 
-Since May 2019 for *ERNI AG*
+Since May 2019 for **ERNI AG**
 
-During my time at *ERNI AG* I was involved in numerous consulting mandates. These typically involve my capability of quickly analysing a situation on a high level, understanding the status quo, identifying areas of interest (typically issues) and then coming up with viable ideas and solutions for the next steps. This has worked well irrespective of the technologies involved.
+During my time at **ERNI AG** I was involved in numerous consulting mandates. These typically involve my capability of quickly analysing a situation on a high level, understanding the status quo, identifying areas of interest (typically issues) and then coming up with viable ideas and solutions for the next steps. This has worked well irrespective of the technologies involved.
 
-- *ToDo*: Manila
+- Client meetings in **Metro-Manila, Philippines** and **Singapore**
+  - Consulting for regular cloud applications
+    - Including performance reviews
+  - Consulting for AI/ML solutions embedded in medical and manufacturing environments
+  - *Design Thinking* workshop for a multi-domain manufacturer
+  - Cultural trainings bridging CH with PH
 - Architecting a UI test framework using [Squish](https://www.qt.io/product/quality-assurance/squish) by Qt for a cpp solution, **Rotkreuz**
   - The test framework was to be implemented using python
 - Review and design extension of a solution based on a broker architecture, **Schlieren**
@@ -177,7 +182,7 @@ During my time at *ERNI AG* I was involved in numerous consulting mandates. Thes
 - Code review of
   - service based system with focus on performance, **Zürich**
   - monolithic Xamarin application with focus on quality, **Zürich**
-- Knowledge transfer process set-up for a near shoring team, **Bratislava**
+- Knowledge transfer process set-up for a near shoring team, **Bratislava, Slovakia**
 - XML code-gen solution review and PoC, **Zollikofen**
 
 ## Software Engineering Passion
