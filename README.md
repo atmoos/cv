@@ -17,46 +17,37 @@ ToDo: Add GPG key, "Suche keine rolle, sondern eine Aufgabe."
 
 ## Projects
 
-Mostly, I've worked on projects revolving around the *.Net stack* and *git* repos. However, I am very comfortable switching technologies and/or stack, for instance to *python*. Also, I enjoy working for a broad variety of target environments and architectures, be those
+Most projects I've worked for revolved around the .Net ecosystem, which is where I am naturally most comfortable. However, I enjoy challenges as well as stepping out of my comfort zone every so often. As such, I've enjoyed working for a broad variety of target environments and architectures, be those
 
-- Plugin development as dynamically loadable libraries, for
+- Plugin development, for
   - *WPF* desktop engineering apps
   - medical instruments running customised Linux versions
   - including the use of [ONNX](https://onnx.ai/) ML models.
 - Containerised event based architectures
   - *RabbitMQ* & *Docker*
+- Test automation frameworks
+  - python & [squish](https://www.qt.io/product/quality-assurance/squish)
+  - Gherkin BDD
 - Distributed systems in the (*Azure*) cloud
   - *Event Hub*, *Service Bus*, *Stream Analytics*, *Blob Storage* & *Cosmos DB*
   - Azure *Web Apps* (*Angular*) and *Functions*
 - *Electron* based desktop apps
   - *Vue.js* & *ASP.Net* (Core)
-- Service Based Architectures for desktop apps
+- Service based architectures for desktop apps
   - WPF, [ZeroC ICE](https://zeroc.com/ice) & *MS SQL* (2012)
-
-**ToDo**: This mindmap doesn't really work...
+- Versioning & deployment
+  - preferably `git` repos
+  - nuget package management
+  - Azure pipelines
+  - github actions
+- Quality & architecture monitoring
+  - Sonar Qube
+  - [ndepend](https://www.ndepend.com/)
+  - Roslyn
 
 ```mermaid
-mindmap
-  root((Thomas))
-    Distributed Systems in Azure Cloud
-      Event Hub & Stream Analytics
-      Blob Storage & Cosmos DB
-      Service Bus
-      Azure Functions & Web Apps
-    Event-Based Architecture
-      RabbitMQ
-      Docker
-    Service Based Architecture
-      Electron Based Desktop
-        ASP.NET Core
-        Vue.js
-      Native Desktop
-        WPF using MVVM
-        ZeroC ICE
-        MS SQL
-    Microkernel Architecture
-      Algorithms Plugins
-      ML Plugin with ONNX
+flowchart TD
+  foo --- bar
 ```
 
 ### Subject Matter Expert - Manila, Philippines
@@ -69,7 +60,7 @@ Due to my track record of improving quality in projects, I was sent to our subsi
 
 Additionally, I lead the (technical) design phase of multiple solutions aimed at the local market as well as supporting the sales team during client visits in the Philippines and Singapore.
 
-***Technology:*** Azure Cloud, .Net, Maui & Xamarin
+***Technology:*** Azure Cloud, .Net, Maui & Xamarin, [BLE](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy)
 
 ### Tech Lead & Architect - Rotkreuz, Switzerland
 
