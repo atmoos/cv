@@ -205,7 +205,18 @@ I am familiar with following architectures:
 
 I just love exploring new ideas and technology, which leads me to regularly embark on technological adventures. Out of these many projects, I'd like to mention on the project that is most mature: [Quantities](https://github.com/atmoos/Quantities).
 
-ToDo: Expand
+It is a .Net library to efficiently and safely handle physical quantities. A small code sample is possibly most illustrative:
+
+```csharp
+Time duration = Time.Of(2, Metric<Hour>()); // 2 h
+Length kilometres = Length.Of(4, Si<Kilo, Metre>()); // 4 km
+Length miles = kilometres.To(Imperial<Mile>()); // 2.4854 mi
+
+Velocity slow = kilometres / duration; // 4 km/h
+
+// (4km == 2.4854 mi)? --> true
+Console.WriteLine($"({kilometres} == {miles})? -> {kilometres == miles}");
+```
 
 ## Other Passions
 
