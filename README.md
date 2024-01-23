@@ -45,7 +45,7 @@ Most projects I've worked for revolved around the .Net ecosystem, which is where
   - [Benchmark DotNet](https://benchmarkdotnet.org/)
   - Roslyn & analysers
 
-### Subject Matter Expert - Consulting Services
+### ᛄ Subject Matter Expert - Consulting Services
 
 3\.2023 - 2\.2024 @ **ERNI AG** Manila, Philippines & Singapore
 
@@ -57,7 +57,7 @@ Additionally, I lead the (technical) design phase of multiple solutions aimed at
 
 ***Technology:*** Azure Cloud, .Net, Maui & Xamarin, [BLE](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy)
 
-### Tech Lead & Architect - Medical Industry
+### ᛄ Tech Lead & Architect - Medical Industry
 
 10\.2021 - 2\.2023 @ **ERNI AG** for a client in Rotkreuz, Switzerland
 
@@ -67,7 +67,7 @@ As a tech lead and architect I was an integral part in implementing cutting edge
 
 ***Technology:*** RabbitMQ, Docker, Asp.Net (core), electron, Vue.js, ONNX
 
-### Architect & Senior Engineer - Medical Industry
+### ᛄ Architect & Senior Engineer - Medical Industry
 
 9\.2020 - 9\.2021 @ **ERNI AG** for a client in Rotkreuz, Switzerland
 
@@ -79,7 +79,7 @@ Lead a small team of developers implement new features. Analysed and fixed vario
 
 ***Technology:*** Azure Cloud, .Net, Asp.Net (core), Specflow, MSTest
 
-### Tech Lead & Senior Engineer - Medical Industry
+### ᛄ Tech Lead & Senior Engineer - Medical Industry
 
 10\.2019 - 8\.2020 @ **ERNI AG** for a client in Rotkreuz, Switzerland
 
@@ -89,7 +89,7 @@ Developer and development architect on the service software component for a high
 
 ***Technology:*** RabbitMQ, Docker, .Net, WPF, Specflow, MSTest
 
-### Product Owner - Manufacturing Industry
+### ᛄ Product Owner - Manufacturing Industry
 
 10\.2018 - 4\.2019 @ **ERNI AG** for a client in Thun, Switzerland
 
@@ -99,7 +99,7 @@ I acted as co-designer and product owner for a project done in collaboration wit
 
 ***Technology:*** XML protocol over TCP/IP, COM API, .NET (core & Framework)
 
-### SW-Engineer - Manufacturing Industry
+### ᛄ SW-Engineer - Manufacturing Industry
 
 3\.2018 - 3\.2019 @ **ERNI AG** for a client in Thun, Switzerland
 
@@ -111,7 +111,7 @@ I improved robustness of a partially built internal framework by eliminating cra
 
 ***Technology:*** Squish, Gherkin, python 3, Jenkins CI, SVN
 
-### SW-Engineer - Electronics Industry
+### ᛄ SW-Engineer - Electronics Industry
 
 1\.2016 - 2\.2018 @ **Sensirion AG** Stäfa, Switzerland
 
@@ -127,7 +127,7 @@ The core task was to build a control and monitoring software (desktop app) for a
 
 ***Technology:*** .Net Framework, WPF, Beckhoff [PLC](https://en.wikipedia.org/wiki/Programmable_logic_controller), Sockets
 
-### Mechanical Engineer - Robotics ETH Start-Up
+### ᛄ Mechanical Engineer - Robotics ETH Start-Up
 
 1\.2015 - 6\.2015 @ *Rapyuta Robotics AG* Zürich, Switzerland
 
@@ -139,7 +139,7 @@ acquisition of electric motors and evaluation of suppliers for carbon fibre base
 
 ***Technology:*** python, C++, [ROS](https://www.ros.org/)
 
-### Junior SW-Engineer - Electronics Industry
+### ᛄ Junior SW-Engineer - Electronics Industry
 
 3\.2013 - 12\.2014 @ **Sensirion AG** Stäfa, Switzerland
 
@@ -149,7 +149,7 @@ My first job as a sw engineer. I designed a transparently parralelisable wrapper
 
 ***Technology:*** .Net Framework, [ZeroC ICE](https://zeroc.com/ice)
 
-### Practical Trainings
+### ᛄ Practical Trainings
 
 8\.2012 - 2\.2013 Internship @ **Sensirion AG**, Stäfa, Switzerland
 
