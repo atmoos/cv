@@ -11,13 +11,11 @@ Thanks to my love for quality, my passion for design and my sixth sense for dete
 
 In my current position as *Subject Matter Expert Technical Quality* I promote engineering excellence by organising internal meetup events about technology, and software design & engineering practices. I enjoy establishing similar formats when working for client projects.
 
-ToDo: Add GPG key, "Suche keine rolle, sondern eine Aufgabe."
-
 ***Contact:*** [github](https://github.com/atmoos), [TEL & EMAIL], [linkedin](https://www.linkedin.com/in/thomas-k%C3%A4gi-46410a141/)
 
 ## Projects
 
-Most projects I've worked for revolved around the .Net ecosystem, which is where I am naturally most comfortable. However, I enjoy challenges as well as stepping out of my comfort zone every so often. As such, I've enjoyed working for a broad variety of target environments and architectures, be those
+Most projects I've worked for revolved around the .Net ecosystem, which is where I am naturally most comfortable. However, I enjoy challenges as well as stepping out of my comfort zone every so often. As such, I've enjoyed working for a broad variety of target environments and architectures:
 
 - Plugin development, for
   - *WPF* desktop engineering apps
@@ -31,6 +29,7 @@ Most projects I've worked for revolved around the .Net ecosystem, which is where
 - Distributed systems in the (*Azure*) cloud
   - *Event Hub*, *Service Bus*, *Stream Analytics*, *Blob Storage* & *Cosmos DB*
   - Azure *Web Apps* (*Angular*) and *Functions*
+  - RESTful APIs
 - *Electron* based desktop apps
   - *Vue.js* & *ASP.Net* (Core)
 - Service based architectures for desktop apps
@@ -43,12 +42,8 @@ Most projects I've worked for revolved around the .Net ecosystem, which is where
 - Quality & architecture monitoring
   - Sonar Qube
   - [ndepend](https://www.ndepend.com/)
-  - Roslyn
-
-```mermaid
-flowchart TD
-  foo --- bar
-```
+  - [Benchmark DotNet](https://benchmarkdotnet.org/)
+  - Roslyn & analysers
 
 ### Subject Matter Expert - Consulting Services
 
@@ -122,15 +117,13 @@ I improved robustness of a partially built internal framework by eliminating cra
 
 ***Architecture:*** Event based architecture using the mediator topology,later evolving into microservices.
 
-The core task was to build a control and monitoring software (desktop app) for a multi slot robotic sensor calibration system. Two unsuccessful attempts had been made previously. By decoupling components and simplifying designs and interfaces, my approach lead to success.
-
-Tactics for success:
+The core task was to build a control and monitoring software (desktop app) for a multi slot robotic sensor calibration system. Two unsuccessful attempts had been made previously. The following shortlist of my tactics where instrumental for success:
 
 - Strict application of [SOLID](https://en.wikipedia.org/wiki/SOLID) principles
 - Temporal and logical decoupling of processors
 - Simplification of design, leading to:
   - New internally widely adopted command pattern implementation
-  - Separately testable components
+  - Independently testable components
 
 ***Technology:*** .Net Framework, WPF, Beckhoff [PLC](https://en.wikipedia.org/wiki/Programmable_logic_controller), Sockets
 
@@ -191,20 +184,38 @@ I use my passion in software engineering to connect components and technologies 
 
 ### Architecture
 
-- Projects at EPH
-- Experience in the industry
-- Leading through book club sessions at EPH on FoSA
+I don't consider myself an architect outright. The interplay between SW design (class level) and architecture (APIs, modules, technology) is still what fascinates me most. A bad design or implementation can (and will) thwart the most keenly devised architecture.  
+This love for the interplay of high and low level worlds is one of the factors that makes me a valuable team member, lead developer or co-architect. A selection of practices I enjoy establishing for effective team work and functioning architecture:
 
-I am familiar with following architectures:
+- Good PR discipline and enjoyable PR experience for all developers
+  - accompanied with a fit for purpose branching and deployment model
+- Engaging tech-sessions or freaky friday sessions
+  - ideally where every team member can contribute
+- Minimal need for command and control (SonarQube, ndepend)
+  - Shaping awareness is far more sustainable and interesting for all involved
+- Book club sessions based on [Fundamentals of Software Architecture](https://www.oreilly.com/library/view/fundamentals-of-software/9781663728357/)
+  - An excellent book for an entry in to architecture
 
 ### Software Engineering
 
-- My team abilities
-- Analytic skills
-- Mention tools only in a side note and stress importance of "portability" and openness.
-  - VSCode, Draw.io, .editorconfig, etc
-  - Don't want a "locked in" situation
+In my view there is hardly anything more fulfilling than creating a coherent, typesafe and useful library that provides a public surface that is almost trivial to understand and integrate into larger systems. This is when I get into "The Flow" and can loose track of time entirely.  
+This passion together with my sharp eye for details as well as the bigger picture is what makes me a productive engineer. Just as above, there are factors I believe are conductive to bringing this into software teams:
+
+- Being a good team communicator and promoting the joy of producing high quality code
+  - [SOLID](https://en.wikipedia.org/wiki/SOLID) as a set of principles conducive to quality
+- Freedom of development environment (within good measure).
+  - Open tools and tech: VSCode, Draw.io, .editorconfig, etc.
   - Developers know best how they are most productive
+- The benefit of deliberate use of [design patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
+  - they are at least a means of communicating between developers
+- The awareness of other programming paradigms and languages, for instance
+  - The benefits of [functional programming](https://en.wikipedia.org/wiki/Functional_programming) principles
+  - [Rust](https://www.rust-lang.org/)'s focus on safety & the novel concept of compile time ownership
+- Awareness of the continued importance of algorithms and data structures
+  - Even with modern hardware and cloud systems, a sound analysis of time and space complexity is crucial
+  - Where the targeted use of benchmarking can "prove" (and disprove!) practical benefits
+- Unit testing as a means to produce better quality code
+  - Refactoring and feature extension can be done faster and more reliable with a good set of unit tests
 
 ### My Own SWE Projects
 
@@ -225,11 +236,15 @@ Console.WriteLine($"({kilometres} == {miles})? -> {kilometres == miles}");
 
 ## Other Passions
 
-- Avid sailor
-- Dancer in training
-- Keen traveller and hiker
-- Baking sourdough bread
-- Single board computers
+Even though I thoroughly enjoy software engineering, it is not the complete story of who I am, as I am also...
+
+- an avid sailor
+- a dancer in training
+- a keen traveller and hiker
+  - travelling this wonderful planet we live on
+  - as well as getting to know the many cultures that live on it
+- a tinkerer with single board computers
   - [keeping nanosecond time](https://www.ntppool.org/scores/84.254.80.94)
   - [blocking adds](https://pi-hole.net/) on my home network
   - [providing VPN](https://www.wireguard.com/) services
+- an aspiring baker of sourdough bread
