@@ -6,10 +6,10 @@
 - With Swiss & British citizenship
 - Speaker at Basel One 2022 about software quality
 
-I have a nack for enabling people and boosting teams. Product quality will improve and your team members will shine if you add me to one (or many) of your projects. As such I thoroughly enjoy deep dives into hard problems, to then re-surface with a solution that *just works*. I preferably do that around .Net ecosystems, but have proven to be capable on other stacks as well.  
-Thanks to my love for quality, my passion for design and my sixth sense for detecting issues, I consider myself a productive software engineer as well as a talented emerging architect.
+I have a nack for enabling people and boosting teams. Product quality will improve and your team members will shine should you add me to one (or many) of your projects. Thanks to my love for quality, my passion for design and my keen ability to detect and solve issues, I consider myself a productive software engineer as well as a talented emerging architect.  
+As such, I thoroughly enjoy deep dives into hard problems, to then re-surface with a solution that *just works*. I preferably do that around .Net ecosystems, but have proven to be capable on other stacks as well.
 
-In my current position as *Subject Matter Expert Technical Quality* I promote engineering excellence by organising internal meetup events about technology, and software design & engineering practices. I enjoy establishing similar formats when working for client projects.
+In my current position as *Subject Matter Expert Technical Quality* I promote engineering excellence by organising internal meetup events about technology, software design and engineering practices. I enjoy establishing similar formats when working for client projects.
 
 ***Contact:*** [github](https://github.com/atmoos), [TEL & EMAIL], [linkedin](https://www.linkedin.com/in/thomas-k%C3%A4gi-46410a141/)
 
@@ -35,10 +35,9 @@ Most projects I've worked for revolved around the .Net ecosystem, which is where
 - Service based architectures for desktop apps
   - WPF, [ZeroC ICE](https://zeroc.com/ice) & *MS SQL* (2012)
 - Versioning & deployment
-  - preferably `git` repos
+  - preferably *git* repos
   - nuget package management
-  - Azure pipelines
-  - github actions
+  - Azure pipelines & github actions
 - Quality & architecture monitoring
   - Sonar Qube
   - [ndepend](https://www.ndepend.com/)
