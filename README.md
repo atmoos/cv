@@ -20,7 +20,7 @@ Most projects I've worked for revolved around the .Net ecosystem, which is where
 - Plugin development, for
   - *WPF* desktop engineering apps
   - medical instruments running customised Linux versions
-  - including the use of [ONNX](https://onnx.ai/) ML models.
+  - including the use of [ONNX](https://onnx.ai/) ML models
 - Containerised event based architectures
   - *RabbitMQ* & *Docker*
 - Test automation frameworks
@@ -46,7 +46,7 @@ Most projects I've worked for revolved around the .Net ecosystem, which is where
 
 ### ᛄ Subject Matter Expert - Consulting Services
 
-3\.2023 - 2\.2024 @ **ERNI AG** Manila, Philippines & Singapore
+3\.2023 - 2\.2024 @ **ERNI AG**, Manila, Philippines & Singapore
 
 ***On architecture:*** High level cloud architectures ([C4)](https://c4model.com/) & heading an architecture book club.
 
@@ -70,7 +70,7 @@ As a tech lead and architect I was an integral part in implementing cutting edge
 
 9\.2020 - 9\.2021 @ **ERNI AG** for a client in Rotkreuz, Switzerland
 
-***Architecture:*** Event based architecture with a broker topology
+***Architecture:*** Event based architecture with a broker topology.
 
 Supporting architect of an expert system cloud solution used to analyse and detect anomalies in the runtime data of various diagnostic instruments.
 
@@ -112,7 +112,7 @@ I improved robustness of a partially built internal framework by eliminating cra
 
 ### ᛄ SW-Engineer - Electronics Industry
 
-1\.2016 - 2\.2018 @ **Sensirion AG** Stäfa, Switzerland
+1\.2016 - 2\.2018 @ **Sensirion AG**, Stäfa, Switzerland
 
 ***Architecture:*** Event based architecture using the mediator topology,later evolving into microservices.
 
@@ -128,7 +128,7 @@ The core task was to build a control and monitoring software (desktop app) for a
 
 ### ᛄ Mechanical Engineer - Robotics ETH Start-Up
 
-1\.2015 - 6\.2015 @ *Rapyuta Robotics AG* Zürich, Switzerland
+1\.2015 - 6\.2015 @ **Rapyuta Robotics AG**, Zürich, Switzerland
 
 I began work there as one of the first employees. The main task was to integrate mechanical
 components into their solution. Furthermore, I implemented the calibration algorithm and test
@@ -140,9 +140,9 @@ acquisition of electric motors and evaluation of suppliers for carbon fibre base
 
 ### ᛄ Junior SW-Engineer - Electronics Industry
 
-3\.2013 - 12\.2014 @ **Sensirion AG** Stäfa, Switzerland
+3\.2013 - 12\.2014 @ **Sensirion AG**, Stäfa, Switzerland
 
-***Architecture:*** Layered architecture with RPC using ZeroC's ICE
+***Architecture:*** Layered architecture with RPC using ZeroC's ICE.
 
 My first job as a sw engineer. I designed a transparently parralelisable wrapper implementation of the RPC API targeting the firmware implementation of a calibration unit.
 
@@ -160,65 +160,66 @@ Since May 2019 for **ERNI AG**
 
 During my time at **ERNI AG** I was involved in numerous consulting mandates. These typically involve my capability of quickly analysing a situation on a high level, understanding the status quo, identifying areas of interest (typically issues) and then coming up with viable ideas and solutions for the next steps. This has worked well irrespective of the technologies involved.
 
-- Client meetings in **Metro-Manila, Philippines** and **Singapore**
+- Client meetings in **Metro-Manila, Philippines** and **Singapore**.
   - Consulting for regular cloud applications
     - Including performance reviews
   - Consulting for AI/ML solutions embedded in medical and manufacturing environments
   - *Design Thinking* workshop for a multi-domain manufacturer
   - Cultural trainings bridging CH with PH
-- Architecting a UI test framework using [Squish](https://www.qt.io/product/quality-assurance/squish) by Qt for a cpp solution, **Rotkreuz**
+- Architecting a UI test framework using [Squish](https://www.qt.io/product/quality-assurance/squish) by Qt for a cpp solution, **Rotkreuz**.
   - The test framework was to be implemented using python
-- Review and design extension of a solution based on a broker architecture, **Schlieren**
+- Review and design extension of a solution based on a broker architecture, **Schlieren**.
   - Workflow management system using [Camunda](https://camunda.com/)
   - The broker orchestrates interaction between Camunda workflows and python processor scripts
 - Code review of
-  - service based system with focus on performance, **Zürich**
-  - monolithic Xamarin application with focus on quality, **Zürich**
-- Knowledge transfer process set-up for a near shoring team, **Bratislava, Slovakia**
-- XML code-gen solution review and PoC, **Zollikofen**
+  - service based system with focus on performance, **Zürich**.
+  - monolithic Xamarin application with focus on quality, **Zürich**.
+- Knowledge transfer process set-up for a near shoring team, **Bratislava, Slovakia**.
+- XML code-gen solution review and PoC, **Zollikofen**.
 
 ## Software Engineering Passion
 
-I use my passion in software engineering to connect components and technologies in a robust and maintainable fashion. This is supported by my love of also connecting people and teams and their respective expertise.
+I use my passion for software engineering to connect components and technologies in a robust and maintainable fashion. This is supported by my love of connecting people and teams and their respective expertise.
 
 ### Architecture
 
-I don't consider myself an architect outright. The interplay between SW design (class level) and architecture (APIs, modules, technology) is still what fascinates me most. A bad design or implementation can (and will) thwart the most keenly devised architecture.  
-This love for the interplay of high and low level worlds is one of the factors that makes me a valuable team member, lead developer or co-architect. A selection of practices I enjoy establishing for effective team work and functioning architecture:
+I don't yet consider myself an architect outright, as the interplay between SW design (class level) and architecture (APIs, modules, technology) is still what fascinates me most. A bad design or implementation can (and will) thwart the most carefully designed architecture.  
+This love for the interplay of high and low level worlds is one of the factors that makes me a valuable team member, lead developer or co-architect. A selection of practices I enjoy establishing for effective team work and *functioning* architecture:
 
 - Good PR discipline and enjoyable PR experience for all developers
   - accompanied with a fit for purpose branching and deployment model
 - Engaging tech-sessions or freaky friday sessions
   - ideally where every team member can contribute
 - Minimal need for command and control (SonarQube, ndepend)
-  - Shaping awareness is far more sustainable and interesting for all involved
+  - shaping awareness is far more sustainable and interesting for all involved
 - Book club sessions based on [Fundamentals of Software Architecture](https://www.oreilly.com/library/view/fundamentals-of-software/9781663728357/)
-  - An excellent book for an entry in to architecture
+  - an excellent book for an entry in to architecture
 
 ### Software Engineering
 
-In my view there is hardly anything more fulfilling than creating a coherent, typesafe and useful library that provides a public surface that is almost trivial to understand and integrate into larger systems. This is when I get into "The Flow" and can loose track of time entirely.  
-This passion together with my sharp eye for details as well as the bigger picture is what makes me a productive engineer. Just as above, there are factors I believe are conductive to bringing this into software teams:
+In my view, there is hardly anything more fulfilling than creating a coherent, type safe and useful library that provides a public surface that is almost trivial to understand and integrate into larger systems. This is when I get into "The Flow" and can loose track of time entirely.  
+This passion together with my sharp eye for details and for the bigger picture is what makes me a productive engineer. Just as above, there are factors I believe are conductive to bringing this into software teams:
 
-- Being a good team communicator and promoting the joy of producing high quality code
-  - [SOLID](https://en.wikipedia.org/wiki/SOLID) as a set of principles conducive to quality
+- Being a good team communicator and promoting the joy of producing high quality code.
+  - [SOLID](https://en.wikipedia.org/wiki/SOLID) as a set of principles that can boost quality
+  - Composition over inheritance combined with aspects of functional programming is equally beneficial
 - Freedom of development environment (within good measure).
-  - Open tools and tech: VSCode, Draw.io, .editorconfig, etc.
+  - Open tools and tech: VSCode, Draw.io, `.editorconfig`, etc.
   - Developers know best how they are most productive
-- The benefit of deliberate use of [design patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
-  - they are at least a means of communicating between developers
-- The awareness of other programming paradigms and languages, for instance
+- The benefit of deliberate use of [design patterns](https://en.wikipedia.org/wiki/Software_design_pattern).
+  - They are at least a means of communicating between developers
+- The awareness of other programming paradigms and languages, for instance.
   - The benefits of [functional programming](https://en.wikipedia.org/wiki/Functional_programming) principles
   - [Rust](https://www.rust-lang.org/)'s focus on safety & the novel concept of compile time ownership
-- Awareness of the continued importance of algorithms and data structures
+- Awareness of the continued importance of algorithms and data structures.
   - Even with modern hardware and cloud systems, a sound analysis of time and space complexity is crucial
   - Where the targeted use of benchmarking can "prove" (and disprove!) practical benefits
-- Unit testing as a means to produce better quality code
+- Unit testing as a means to produce better quality code.
   - Refactoring and feature extension can be done faster and more reliable with a good set of unit tests
 
-### My Own SWE Projects
+### My Own Software Engineering Projects
 
-I just love exploring new ideas and technology, which leads me to regularly embark on technological adventures. Out of these many projects, I'd like to mention on the project that is most mature: [Quantities](https://github.com/atmoos/Quantities).
+I just love exploring new ideas and technology, which leads me to regularly embark on technological adventures. Out of these many projects, I'd like to mention the project that is most mature: [Quantities](https://github.com/atmoos/Quantities).
 
 It is a .Net library to efficiently and safely handle physical quantities. A small code sample is possibly most illustrative:
 
