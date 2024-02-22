@@ -1,6 +1,6 @@
 # Thomas Kägi
 
-- **MSc ETH** in Mechanical Engineering
+- **MSc ETH** in Mechanical Engineering in 2014
 - 29\. June 1984
 - Fluent in German and English
 - With Swiss & British citizenship
