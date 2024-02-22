@@ -15,7 +15,7 @@ In my current position as *Subject Matter Expert Technical Quality* I promote en
 
 ## Projects
 
-Most projects I've worked for revolved around the .Net ecosystem, which is where I am naturally most comfortable. However, I enjoy challenges as well as stepping out of my comfort zone every so often. As such, I've enjoyed working for a broad variety of target environments and architectures:
+Most projects I've worked for revolved around the .Net ecosystem, which is where I am also most comfortable. However, I enjoy challenges as well as stepping out of my comfort zone every so often. As such, I've enjoyed working for a broad variety of target environments and architectures:
 
 - Plugin development, for
   - *WPF* desktop engineering apps
@@ -90,7 +90,7 @@ Developer and development architect on the service software component for a high
 
 ### ᛄ Product Owner - Manufacturing Industry
 
-10\.2018 - 4\.2019 @ **ERNI AG** for a client in Thun, Switzerland
+10\.2018 - 4\.2019 @ **ERNI AG** part time for a client in Thun, Switzerland
 
 ***Architecture:*** Service based translation layer.
 
@@ -114,7 +114,7 @@ I improved robustness of a partially built internal framework by eliminating cra
 
 1\.2016 - 2\.2018 @ **Sensirion AG**, Stäfa, Switzerland
 
-***Architecture:*** Event based architecture using the mediator topology,later evolving into microservices.
+***Architecture:*** Event based architecture using the mediator topology, later evolving into microservices.
 
 The core task was to build a control and monitoring software (desktop app) for a multi slot robotic sensor calibration system. Two unsuccessful attempts had been made previously. The following shortlist of my tactics where instrumental for success:
 
@@ -221,7 +221,7 @@ This passion together with my sharp eye for details and for the bigger picture i
 
 I just love exploring new ideas and technology, which leads me to regularly embark on technological adventures. Out of these many projects, I'd like to mention the project that is most mature: [Quantities](https://github.com/atmoos/Quantities).
 
-It is a .Net library to efficiently and safely handle physical quantities. A small code sample is possibly most illustrative:
+It is a .Net library to efficiently and safely handle physical quantities. A small code sample in C# is possibly most illustrative:
 
 ```csharp
 Time duration = Time.Of(2, Metric<Hour>()); // 2 h
