@@ -44,7 +44,7 @@ Most projects I've worked for revolved around the .Net ecosystem, which is where
   - [Benchmark DotNet](https://benchmarkdotnet.org/)
   - Roslyn & analysers
 
-### ᛄ Subject Matter Expert - Consulting Services
+### ᛄ Quality Improvement - *Subject Matter Expert* - Consulting Services
 
 3\.2023 - 2\.2024 @ **ERNI AG**, Manila, Philippines & Singapore
 
@@ -56,7 +56,7 @@ Additionally, I lead the (technical) design phase of multiple solutions aimed at
 
 ***Technology:*** Azure Cloud, .Net, Maui & Xamarin, [BLE](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy)
 
-### ᛄ Tech Lead & Architect - Medical Industry
+### ᛄ Algorithm Development - *Tech Lead & Architect* - Medical Industry
 
 10\.2021 - 2\.2023 @ **ERNI AG** for a client in Rotkreuz, Switzerland
 
@@ -66,7 +66,7 @@ As a tech lead and architect I was an integral part in implementing cutting edge
 
 ***Technology:*** RabbitMQ, Docker, Asp.Net (core), electron, Vue.js, ONNX
 
-### ᛄ Architect & Senior Engineer - Medical Industry
+### ᛄ Expert System - *Architect & Senior Engineer* - Medical Industry
 
 9\.2020 - 9\.2021 @ **ERNI AG** for a client in Rotkreuz, Switzerland
 
@@ -78,7 +78,7 @@ Lead a small team of developers implement new features. Analysed and fixed vario
 
 ***Technology:*** Azure Cloud, .Net, Asp.Net (core), Specflow, MSTest
 
-### ᛄ Tech Lead & Senior Engineer - Medical Industry
+### ᛄ Service Software Component - *Tech Lead & Senior Engineer* - Medical Industry
 
 10\.2019 - 8\.2020 @ **ERNI AG** for a client in Rotkreuz, Switzerland
 
@@ -88,7 +88,7 @@ Developer and development architect on the service software component for a high
 
 ***Technology:*** RabbitMQ, Docker, .Net, WPF, Specflow, MSTest
 
-### ᛄ Product Owner - Manufacturing Industry
+### ᛄ Machine Gateway - *Product Owner* - Manufacturing Industry
 
 10\.2018 - 4\.2019 @ **ERNI AG** part time for a client in Thun, Switzerland
 
@@ -98,7 +98,7 @@ I acted as co-designer and product owner for a project done in collaboration wit
 
 ***Technology:*** XML protocol over TCP/IP, COM API, .NET (core & Framework)
 
-### ᛄ SW-Engineer - Manufacturing Industry
+### ᛄ Framework Stabilisation - *SW-Engineer* - Manufacturing Industry
 
 3\.2018 - 3\.2019 @ **ERNI AG** for a client in Thun, Switzerland
 
@@ -108,9 +108,9 @@ Support the team transitioning form auto-generated, but brittle and slow end-to-
 
 I improved robustness of a partially built internal framework by eliminating crashes and false positives, as well as improving performance form 5h runtime down to 2h.
 
-***Technology:*** Squish, Gherkin, python 3, Jenkins CI, SVN
+***Technology:*** Squish, BDD (Gherkin), python 3, Jenkins CI, SVN
 
-### ᛄ SW-Engineer - Electronics Industry
+### ᛄ Robotic Calibration System - *Lead SW-Engineer* - Electronics Industry
 
 1\.2016 - 2\.2018 @ **Sensirion AG**, Stäfa, Switzerland
 
@@ -126,19 +126,18 @@ The core task was to build a control and monitoring software (desktop app) for a
 
 ***Technology:*** .Net Framework, WPF, Beckhoff [PLC](https://en.wikipedia.org/wiki/Programmable_logic_controller), Sockets
 
-### ᛄ Mechanical Engineer - Robotics ETH Start-Up
+### ᛄ Calibration Algorithm - *Mechanical Engineer* - Robotics ETH Start-Up
 
 1\.2015 - 6\.2015 @ **Rapyuta Robotics AG**, Zürich, Switzerland
 
-I began work there as one of the first employees. The main task was to integrate mechanical
-components into their solution. Furthermore, I implemented the calibration algorithm and test
+I began work there as one of the first employees. I implemented the calibration algorithm and test
 set-up used to parametrise transformation matrices used to compensate raw sensor data.
 Other tasks included: Development of a test bed for electric propulsion motors, evaluation and
 acquisition of electric motors and evaluation of suppliers for carbon fibre based components.
 
 ***Technology:*** python, C++, [ROS](https://www.ros.org/)
 
-### ᛄ Junior SW-Engineer - Electronics Industry
+### ᛄ Parallelised Firmware API - *Junior SW-Engineer* - Electronics Industry
 
 3\.2013 - 12\.2014 @ **Sensirion AG**, Stäfa, Switzerland
 
