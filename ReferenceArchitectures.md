@@ -2,10 +2,30 @@
 
 This is a selection of architectures I was involved in. Either as an architect or lead developer.
 
-## ᛟ Nudge System
+## ᛟ Messaging System
 
 Date: 2023  
-Role: Lead architect
+Role: Architect
+
+### Topology
+
+Event based serverless messaging system.
+
+![Messaging system topology](./assets/MessagingSystem.webp "Message System")
+
+This C4-Context Diagram was laid out by myself and the lead developer & project architect at the project start. He then further detailed the container diagram of the resulting ecosystem.
+
+### Challenges
+
+Thanks to our expert developers and outstanding team work the realisation of this system went very smoothly. The most interesting challenge occurred after the first deployment.
+
+Every morning each user (out of many hundreds denoted $u$) receives on average $\mu$ ML generated messages out of a total of $m$ messages. It was required that each user receives the messages at the same time early in the morning. The initial implementation took about **two hours** to send all messages, clearly not meeting the requirements.  
+After some careful inspection it was identified that the messaging dispersal "algorithms" was implemented in $\mathcal{O}(u \cdot \mu + m)$ time complexity and that the associated azure functions were running into timeouts.  
+Careful analysis showed that some parts could be effectively panellised and, most importantly, the algorithm could be implemented as $\mathcal{O}(u + m)$.
+
+This change doesn't seem much, but the average runtime was reduced to a mere **four seconds** after the change was deployed!
+
+**Note**: This level of reduction may indicate that there was more going on.
 
 ## ᛟ Expert Cloud System
 
