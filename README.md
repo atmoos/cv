@@ -110,11 +110,11 @@ I improved robustness of a partially built internal framework by eliminating cra
 
 ***Technology:*** Squish, BDD (Gherkin), python 3, Jenkins CI, SVN
 
-### ᛄ Robotic Calibration System - *Lead SW-Engineer* - Electronics Industry
+### ᛄ Sensor Calibration System - *Lead SW-Engineer* - Electronics Industry
 
 1\.2016 - 2\.2018 @ **Sensirion AG**, Stäfa, Switzerland
 
-***Architecture:*** Event based architecture using the mediator topology, later evolving into microservices.
+***[Architecture:](./ReferenceArchitectures.md#ᛟ-sensor-calibration-system)*** Event based architecture using the mediator topology, later evolving into microservices.
 
 The core task was to build a control and monitoring software (desktop app) for a multi slot robotic sensor calibration system. Two unsuccessful attempts had been made previously. The following shortlist of my tactics where instrumental for success:
 
