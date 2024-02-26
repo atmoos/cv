@@ -2,6 +2,8 @@
 
 This is a selection of architectures I was involved in. Either as an architect or lead developer.
 
+**Note**: All diagrams follow [C4](https://c4model.com/). However, to keep this document reasonably short, I chose to not follow it exactly and sometimes mix (abstraction) layers.
+
 ## ᛟ Messaging System
 
 Date: 2023  
@@ -13,15 +15,15 @@ Event based serverless messaging system.
 
 ![Messaging system topology](./assets/MessagingSystem.webp "Message System")
 
-This C4-Context Diagram was laid out by myself and the lead developer & project architect at the project start. He then further detailed the container diagram of the resulting ecosystem.
+This C4-Context diagram was laid out by myself and the lead developer & project architect at the project start. He then further detailed the container diagram of the resulting ecosystem.
 
 ### Challenges
 
 Thanks to our expert developers and outstanding team work the realisation of this system went very smoothly. The most interesting challenge occurred after the first deployment.
 
 Every morning each user (out of many hundreds denoted $u$) receives on average $\mu$ ML generated messages out of a total of $m$ messages. It was required that each user receives the messages at the same time early in the morning. The initial implementation took about **two hours** to send all messages, clearly not meeting the requirements.  
-After some careful inspection it was identified that the messaging dispersal "algorithms" was implemented in $\mathcal{O}(u \cdot \mu + m)$ time complexity and that the associated azure functions were running into timeouts.  
-Careful analysis showed that some parts could be effectively panellised and, most importantly, the algorithm could be implemented as $\mathcal{O}(u + m)$.
+After some careful inspection it was identified that the messaging dispersal "algorithms" was implemented in $O(u \cdot \mu + m)$ time complexity and that the associated azure functions were running into timeouts.  
+Careful analysis showed that some parts could be effectively panellised and, most importantly, the algorithm could be implemented as $O(u + m)$.
 
 This change doesn't seem that relevant. However, together with some improvements on concurrency it proved significant in that the average runtime was reduced to a mere **four seconds** when the improvement was deployed!
 
@@ -31,6 +33,35 @@ This change doesn't seem that relevant. However, together with some improvements
 
 Date: 2021  
 Role: Tech lead & supporting architect
+
+### Topology
+
+Event based architecture based on a broker topology, relying on eventual consistency.
+
+**Note**: This was *not my design*. I include it as it was a project most influential in my journey to becoming an architect. The depiction of the system has been greatly simplified as well as names intentionally left vague. This is to protect the client I was working for.
+
+![Expert system topology](./assets/ExpertSystem.webp "Expert System")
+
+Conceptual notes:
+
+- the service bus is responsible for relaying the majority of messages
+- the web app consists of two apps
+  - Angular frontend with ASP.Net core backend
+  - REST API defined in Swagger
+- Some trigger-connections have been omitted for brevity
+
+### Challenges
+
+The design proved to be very capable and able to evolve over time. I was mostly involved with changes to "sub-designs" or in-depth problem analysis.
+
+- Design and realization of ambulance cloud pattern with lead architect
+- Fixing memory issues in "Data Extraction"
+  - Space complexity from $O(n) \to O(1)$
+- Fixing performance bottlenecks
+  - CosmosDB and overly hasty implementations caused significant slowdown
+- *Unsolved* issue of conceptually not knowing when stream analytics completes. (Akin to the halting problem?)
+  - We knew when anomalies where found, but
+  - *not* when none were found.
 
 ## ᛟ Sensor Calibration System
 
