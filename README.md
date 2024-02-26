@@ -48,7 +48,7 @@ Most projects I've worked for revolved around the .Net ecosystem, which is where
 
 3\.2023 - 2\.2024 @ **ERNI AG**, Manila, Philippines & Singapore
 
-***On [architecture](https://github.com/atmoos/cv/blob/main/ReferenceArchitectures.md#ᛟ-messaging-system):*** High level cloud architectures ([C4)](https://c4model.com/) & heading an architecture book club.
+***On [architecture](./ReferenceArchitectures.md#ᛟ-messaging-system):*** High level cloud architectures ([C4)](https://c4model.com/) & heading an architecture book club.
 
 Due to my track record of improving quality in projects, I was sent to our subsidiary in Manila as a cultural bridge and ambassador of quality. We chose to set a focus on improving processes revolving around sales activities.
 
@@ -114,7 +114,7 @@ I improved robustness of a partially built internal framework by eliminating cra
 
 1\.2016 - 2\.2018 @ **Sensirion AG**, Stäfa, Switzerland
 
-***[Architecture:](https://github.com/atmoos/cv/blob/main/ReferenceArchitectures.md#ᛟ-sensor-calibration-system)*** Event based architecture using the mediator topology, later evolving into microservices.
+***[Architecture:](./ReferenceArchitectures.md#ᛟ-sensor-calibration-system)*** Event based architecture using the mediator topology, later evolving into microservices.
 
 The core task was to build a control and monitoring software (desktop app) for a multi slot robotic sensor calibration system. Two unsuccessful attempts had been made previously. The following shortlist of my tactics where instrumental for success:
 

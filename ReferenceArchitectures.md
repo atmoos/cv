@@ -23,9 +23,9 @@ Every morning each user (out of many hundreds denoted $u$) receives on average $
 After some careful inspection it was identified that the messaging dispersal "algorithms" was implemented in $\mathcal{O}(u \cdot \mu + m)$ time complexity and that the associated azure functions were running into timeouts.  
 Careful analysis showed that some parts could be effectively panellised and, most importantly, the algorithm could be implemented as $\mathcal{O}(u + m)$.
 
-This change doesn't seem much, but the average runtime was reduced to a mere **four seconds** after the change was deployed!
+This change doesn't seem that relevant. However, together with some improvements on concurrency it proved significant in that the average runtime was reduced to a mere **four seconds** when the improvement was deployed!
 
-**Note**: This level of reduction may indicate that there was more going on.
+**Note**: This level of speed-up may indicate that there was more going on than "just" suboptimal complexity. I can no longer prove it, but there may have been some saturation in the service bus happening or scaling-out limits of Azure functions being reached.
 
 ## ᛟ Expert Cloud System
 
@@ -54,7 +54,7 @@ This was later achieved between one to two years later by my successor.
 
 ### Challenges
 
-This system had been designed and implemented twice before I was given the task to attempt a design an implementation. Very briefly some of the chief concerns I set out to solve:
+This system had been designed and implemented twice before I was given the task. Very briefly some of the chief design concerns I set out to solve:
 
 - Improving structural connascence
   - Partitioning based on sub-domains
@@ -63,3 +63,4 @@ This system had been designed and implemented twice before I was given the task 
 - Improving robustness and reliability
   - This included such simple things as allowing cancellation
   - Well defined error behaviour
+- Paving the way for a distributed system
