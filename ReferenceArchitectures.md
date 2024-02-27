@@ -22,10 +22,10 @@ This C4-Context diagram was laid out by myself and the lead developer & project 
 Thanks to our expert developers and outstanding team work the realisation of this system went very smoothly. The most interesting challenge occurred after the first deployment.
 
 Every morning each user (out of many hundreds denoted $u$) receives on average $\mu$ ML generated messages out of a total of $m$ messages. It was required that each user receives the messages at the same time early in the morning. The initial implementation took about **two hours** to send all messages, clearly not meeting the requirements.  
-After some careful inspection it was identified that the messaging dispersal "algorithms" was implemented in $O(u \cdot \mu + m)$ time complexity and that the associated azure functions were running into timeouts.  
-Careful analysis showed that some parts could be effectively panellised and, most importantly, the algorithm could be implemented as $O(u + m)$.
+After some careful inspection it was identified that the messaging dispersal "algorithms" was implemented in $O(u \cdot \mu + m)$ time complexity and that the associated azure functions (incl. durable functions) were running into timeouts.  
+Careful analysis showed that some parts could be effectively parallelised and, most importantly, the algorithm could be implemented in $O(u + m)$ time complexity.
 
-This change doesn't seem that relevant. However, together with some improvements on concurrency it proved significant in that the average runtime was reduced to a mere **four seconds** when the improvement was deployed!
+This change doesn't seem that relevant. However, it turned out to be a significant improvement. The average runtime was reduced to a mere **four seconds** after boing deployed!
 
 **Note**: This level of speed-up may indicate that there was more going on than "just" suboptimal complexity. I can no longer prove it, but there may have been some saturation in the service bus happening or scaling-out limits of Azure functions being reached.
 
@@ -36,29 +36,29 @@ Role: Tech lead & supporting architect
 
 ### Topology
 
-Event based architecture based on a broker topology, relying on eventual consistency.
+Event based architecture based on a broker topology & relying on eventual consistency.
 
-**Note**: This was *not my design*. I include it as it was a project most influential in my journey to becoming an architect. The depiction of the system has been greatly simplified as well as names intentionally left vague. This is to protect the client I was working for.
+**Note**: This was *not my design*. I include it as it was a project most influential in my journey to becoming an architect. The depiction of the system has been greatly simplified as well as names intentionally left vague. This is to protect the former clients IP.
 
 ![Expert system topology](./assets/ExpertSystem.webp "Expert System")
 
 Conceptual notes:
 
 - the service bus is responsible for relaying the majority of messages
-- the web app consists of two apps
+- the web app actually consists of two apps, each with
   - Angular frontend with ASP.Net core backend
   - REST API defined in Swagger
-- Some trigger-connections have been omitted for brevity
+- Some "trigger-connections" have been omitted for brevity
 
 ### Challenges
 
-The design proved to be very capable and able to evolve over time. I was mostly involved with changes to "sub-designs" or in-depth problem analysis.
+The design proved to be very capable and also able to evolve over time. I was mostly involved with changes to "sub-designs" or in-depth problem analysis.
 
 - Design and realization of ambulance cloud pattern with lead architect
 - Fixing memory issues in "Data Extraction"
   - Space complexity from $O(n) \to O(1)$
 - Fixing performance bottlenecks
-  - CosmosDB and overly hasty implementations caused significant slowdown
+  - CosmosDB specialities and overly hasty implementations caused significant slowdown
 - *Unsolved* issue of conceptually not knowing when stream analytics completes. (Akin to the halting problem?)
   - We knew when anomalies where found, but
   - *not* when none were found.
@@ -92,6 +92,7 @@ This system had been designed and implemented twice before I was given the task.
   - Temporal decoupling of all sub-domains
 - Reducing the code complexity overall
 - Improving robustness and reliability
-  - This included such simple things as allowing cancellation
+  - This included such simple things as allowing for cancellation
   - Well defined error behaviour
 - Paving the way for a distributed system
+  - possibly using a message broker such as RabbitMQ or Apache Kafka
