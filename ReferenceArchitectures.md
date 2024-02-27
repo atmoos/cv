@@ -19,13 +19,13 @@ This C4-Context diagram was laid out by myself and the lead developer & project 
 
 ### Challenges
 
-Thanks to our expert developers and outstanding team work the realisation of this system went very smoothly. The most interesting challenge occurred after the first deployment.
+Thanks to our expert developers and outstanding teamwork the realisation of this system went very smoothly. The most interesting challenge occurred after the first deployment.
 
-Every morning each user (out of many hundreds denoted $u$) receives on average $\mu$ ML generated messages out of a total of $m$ messages. It was required that each user receives the messages at the same time early in the morning. The initial implementation took about **two hours** to send all messages, clearly not meeting the requirements.  
+Every morning each user (out of many hundreds denoted $u$) receives on average $\mu$ ML generated messages out of a total of $m$ messages. It was required that each user receive the messages at the same time early in the morning. The initial implementation took about **two hours** to send all messages, clearly not meeting the requirements.  
 After some careful inspection it was identified that the messaging dispersal "algorithms" was implemented in $O(u \cdot \mu + m)$ time complexity and that the associated azure functions (incl. durable functions) were running into timeouts.  
 Careful analysis showed that some parts could be effectively parallelised and, most importantly, the algorithm could be implemented in $O(u + m)$ time complexity.
 
-This change doesn't seem that relevant. However, it turned out to be a significant improvement. The average runtime was reduced to a mere **four seconds** after boing deployed!
+This change doesn't seem that relevant. However, it turned out to be a significant improvement. The average runtime was reduced to a mere **four seconds** after being deployed!
 
 **Note**: This level of speed-up may indicate that there was more going on than "just" suboptimal complexity. I can no longer prove it, but there may have been some saturation in the service bus happening or scaling-out limits of Azure functions being reached.
 
@@ -54,7 +54,7 @@ Conceptual notes:
 
 The design proved to be very capable and also able to evolve over time. I was mostly involved with changes to "sub-designs" or in-depth problem analysis.
 
-- Design and realization of ambulance cloud pattern with lead architect
+- Design and realisation of ambulance cloud pattern with lead architect
 - Fixing memory issues in "Data Extraction"
   - Space complexity from $O(n) \to O(1)$
 - Fixing performance bottlenecks
@@ -78,7 +78,7 @@ Everything within the "Control Software" box was designed by myself. The calibra
 
 #### Some Caveats
 
-For historical reasons, this system had been developed as a monolith. Hence, the all the blue boxes really are C4-components. However after first deployment it was quickly realised that we'd be running into many of the issues associated with monoliths.  
+For historical reasons, this system had been developed as a monolith. Hence, all the blue boxes really are C4-*components* (rather than containers). However after first deployment it was quickly realised that we'd be running into many of the issues associated with monoliths.  
 I had prepared the system in such a way that it in principle could be broken apart and be separated out into C4-containers.
 
 This was later achieved between one to two years later by my successor.
