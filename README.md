@@ -224,12 +224,12 @@ It is a .Net library to efficiently and safely handle physical quantities. A sma
 
 ```csharp
 Time duration = Time.Of(2, Metric<Hour>()); // 2 h
-Length kilometres = Length.Of(4, Si<Kilo, Metre>()); // 4 km
-Length miles = kilometres.To(Imperial<Mile>()); // 2.4854 mi
+Length kilometres = Length.Of(6, Si<Kilo, Metre>()); // 6 km
+Length miles = kilometres.To(Imperial<Mile>()); // 3.7282 mi
 
-Velocity slow = kilometres / duration; // 4 km/h
+Velocity slow = kilometres / duration; // 3 km/h
 
-// (4km == 2.4854 mi)? --> true
+// (6km == 3.7282 mi)? --> true
 Console.WriteLine($"({kilometres} == {miles})? -> {kilometres == miles}");
 ```
 
