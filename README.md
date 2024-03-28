@@ -6,7 +6,7 @@
 - With Swiss & British citizenship
 - Speaker at Basel One 2022 about software quality
 
-I have a nack for enabling people and boosting teams. Product quality will improve and your team members will shine should you add me to one (or many) of your projects. Thanks to my love for quality, my passion for design and my keen ability to detect and solve issues, I consider myself a productive software engineer as well as a talented [emerging architect](https://www.certible.com/verify/16a1d0539291cec329fbcc2bbc22f691/).  
+I have a knack for enabling people and boosting teams. Product quality will improve and your team members will shine should you add me to one (or many) of your projects. Thanks to my love for quality, my passion for design and my keen ability to detect and solve issues, I consider myself a productive software engineer as well as a talented [emerging architect](https://www.certible.com/verify/16a1d0539291cec329fbcc2bbc22f691/).  
 As such, I thoroughly enjoy deep dives into hard problems, to then re-surface with a solution that *just works*. I preferably do that around .Net ecosystems, but have proven to be capable on other stacks as well.
 
 In my current position as *Subject Matter Expert Technical Quality* I promote engineering excellence by organising internal meetup events about technology, software design and engineering practices. I enjoy establishing similar formats when working for client projects.
